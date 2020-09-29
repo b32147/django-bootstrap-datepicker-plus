@@ -8,11 +8,11 @@ def readme():
 
 setup(
     name='django-bootstrap-datepicker-plus',
-    version='3.0.5',
+    version='3.0.6',
     description='Bootstrap3/Bootstrap4 DatePickerInput, TimePickerInput, '
                 'DateTimePickerInput, MonthPickerInput, YearPickerInput '
                 'with date-range-picker functionality for django version '
-                '2.1, 2.0, 1.11, 1.10 and 1.8',
+                '2.2 2.1, 2.0, 1.11, 1.10 and 1.8',
     long_description=readme(),
     url='https://github.com/monim67/django-bootstrap-datepicker-plus',
     author='Munim Munna',
@@ -44,6 +44,7 @@ setup(
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
         'Framework :: Django',
+        'Framework :: Django :: 2.2',
         'Framework :: Django :: 2.1',
         'Framework :: Django :: 2.0',
         'Framework :: Django :: 1.11',
